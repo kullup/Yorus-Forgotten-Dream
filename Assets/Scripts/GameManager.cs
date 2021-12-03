@@ -5,10 +5,21 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    public int Respawn;
+    bool gameHasEnded = false;
+    public GameOverScreen GameOverScreen;
 
     public void playerDied()
     {
-        SceneManager.LoadScene(Respawn);
+        if (gameHasEnded == false)
+        {
+            gameHasEnded = true;
+            GameOverScreen.setup();
+        }
+    }
+
+    public void Restart()
+    {
+        gameHasEnded = false;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }

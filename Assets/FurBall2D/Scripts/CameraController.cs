@@ -5,6 +5,7 @@ public class CameraController : MonoBehaviour
 {
 	public Transform Player;
 	public float m_speed = 0.1f;
+	public float zoom = 0.7f;
 	Camera mycam;
 
 	public void Start()
@@ -15,7 +16,7 @@ public class CameraController : MonoBehaviour
 	public void Update()
 	{
 
-		mycam.orthographicSize = (Screen.height / 100f) / 0.7f;
+		mycam.orthographicSize = (Screen.height / 100f) / zoom;
 
 		if (Player) 
 		{
