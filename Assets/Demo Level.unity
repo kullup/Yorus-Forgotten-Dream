@@ -68322,6 +68322,12 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 6758920006988050432, guid: 5261120c15e34423fbf9501ee0e73d0a, type: 3}
+      propertyPath: m_Text
+      value: 'Text
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758920006988050432, guid: 5261120c15e34423fbf9501ee0e73d0a, type: 3}
       propertyPath: m_FontData.m_FontSize
       value: 70
       objectReference: {fileID: 0}
@@ -68347,7 +68353,7 @@ PrefabInstance:
       objectReference: {fileID: 36165875}
     - target: {fileID: 6758920007107188089, guid: 5261120c15e34423fbf9501ee0e73d0a, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6758920008015186625, guid: 5261120c15e34423fbf9501ee0e73d0a, type: 3}
       propertyPath: m_SizeDelta.x
@@ -68537,7 +68543,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8484616957395203440, guid: 5686d3f77b7344460ba663b3b4b5b22d, type: 3}
       propertyPath: zoom
-      value: 1.5
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 8484616957395203440, guid: 5686d3f77b7344460ba663b3b4b5b22d, type: 3}
       propertyPath: Player
