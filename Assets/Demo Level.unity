@@ -68321,13 +68321,61 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6758920006988050432, guid: 5261120c15e34423fbf9501ee0e73d0a, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758920006988050435, guid: 5261120c15e34423fbf9501ee0e73d0a, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 387.98
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758920006988050435, guid: 5261120c15e34423fbf9501ee0e73d0a, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 134.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758920006988050435, guid: 5261120c15e34423fbf9501ee0e73d0a, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 14.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758920006988050435, guid: 5261120c15e34423fbf9501ee0e73d0a, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 67.45
+      objectReference: {fileID: 0}
     - target: {fileID: 6758920007107188085, guid: 5261120c15e34423fbf9501ee0e73d0a, type: 3}
       propertyPath: GameManager
       value: 
       objectReference: {fileID: 36165875}
+    - target: {fileID: 6758920007107188089, guid: 5261120c15e34423fbf9501ee0e73d0a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758920008015186625, guid: 5261120c15e34423fbf9501ee0e73d0a, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 842.59
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758920008015186625, guid: 5261120c15e34423fbf9501ee0e73d0a, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 50.93
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758920008015186625, guid: 5261120c15e34423fbf9501ee0e73d0a, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758920008015186625, guid: 5261120c15e34423fbf9501ee0e73d0a, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -111
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758920008449300889, guid: 5261120c15e34423fbf9501ee0e73d0a, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 35
+      objectReference: {fileID: 0}
     - target: {fileID: 6758920008503891120, guid: 5261120c15e34423fbf9501ee0e73d0a, type: 3}
       propertyPath: m_Name
       value: Game Over
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758920008503891120, guid: 5261120c15e34423fbf9501ee0e73d0a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6758920008503891148, guid: 5261120c15e34423fbf9501ee0e73d0a, type: 3}
       propertyPath: m_Pivot.x
@@ -68412,6 +68460,10 @@ PrefabInstance:
     - target: {fileID: 6758920008503891148, guid: 5261120c15e34423fbf9501ee0e73d0a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6758920008503891150, guid: 5261120c15e34423fbf9501ee0e73d0a, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6758920008503891151, guid: 5261120c15e34423fbf9501ee0e73d0a, type: 3}
       propertyPath: m_Camera
