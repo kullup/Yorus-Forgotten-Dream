@@ -68323,7 +68323,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6758920006988050432, guid: 5261120c15e34423fbf9501ee0e73d0a, type: 3}
       propertyPath: m_Text
-      value: 'Text
+      value: 'Game Over
 
 '
       objectReference: {fileID: 0}
