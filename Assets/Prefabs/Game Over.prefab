@@ -78,7 +78,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Text
+  m_Text: You Died
 --- !u!1 &6758920007107188089
 GameObject:
   m_ObjectHideFlags: 0
