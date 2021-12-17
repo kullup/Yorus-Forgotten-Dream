@@ -1410,6 +1410,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8226349109264228808, guid: 9c91fb3cb501c41f89dfe7e95e44df10, type: 3}
+      propertyPath: m_GravityScale
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 8226349109264228809, guid: 9c91fb3cb501c41f89dfe7e95e44df10, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -1457,6 +1461,14 @@ PrefabInstance:
     - target: {fileID: 8226349109264228812, guid: 9c91fb3cb501c41f89dfe7e95e44df10, type: 3}
       propertyPath: m_Name
       value: Furry Neuer Controller
+      objectReference: {fileID: 0}
+    - target: {fileID: 8226349109264228815, guid: 9c91fb3cb501c41f89dfe7e95e44df10, type: 3}
+      propertyPath: m_JumpForce
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 8226349109264228815, guid: 9c91fb3cb501c41f89dfe7e95e44df10, type: 3}
+      propertyPath: m_MovementSmoothing
+      value: 0.05
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9c91fb3cb501c41f89dfe7e95e44df10, type: 3}
