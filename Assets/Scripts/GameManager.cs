@@ -65,4 +65,9 @@ public class GameManager : MonoBehaviour
         PauseMenu.Hide();
         MainMenu.Show();
     }
+
+    public void LevelCompleted(string nextLevel)
+    {
+        SceneManager.LoadScene(nextLevel);
+    }
 }
