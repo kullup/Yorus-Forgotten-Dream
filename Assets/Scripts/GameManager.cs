@@ -29,6 +29,7 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 0f;
         PauseMenu.Show();
         gameIsPaused = true;
+        Debug.Log("Game Paused");
     }
 
     public void ResumeGame()
@@ -36,6 +37,7 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1f;
         PauseMenu.Hide();
         gameIsPaused = false;
+        Debug.Log("Game Resumed");
     }
 
     public void RestartGame()
@@ -43,6 +45,7 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1f;
         gameHasEnded = false;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        Debug.Log("Game Restarted");
     }
 
     public void playerDied()
@@ -52,5 +55,6 @@ public class GameManager : MonoBehaviour
             gameHasEnded = true;
             GameOverScreen.Show();
         }
+        Debug.Log("Player Died");
     }
 }

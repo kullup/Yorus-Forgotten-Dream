@@ -46,5 +46,6 @@ public class PauseMenu : MonoBehaviour
 	void resumeOnClick()
 	{
 		GameManager.GetComponent<GameManager>().ResumeGame();
+		Debug.Log("Resume Button Pressed");
 	}
 }
