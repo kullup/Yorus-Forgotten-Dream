@@ -35,6 +35,7 @@ public class PauseMenu : MonoBehaviour
 		Button resumeButton = resumeButtonGameObj.GetComponent<Button>();
 
 		restartButton.onClick.AddListener(restartOnClick);
+		menuButton.onClick.AddListener(MenuOnClick);
 		resumeButton.onClick.AddListener(resumeOnClick);
 	}
 
@@ -48,4 +49,10 @@ public class PauseMenu : MonoBehaviour
 		GameManager.GetComponent<GameManager>().ResumeGame();
 		Debug.Log("Resume Button Pressed");
 	}
+
+	void MenuOnClick()
+    {
+		GameManager.GetComponent<GameManager>().ShowMainMenu();
+		gameObject.SetActive(false);
+    }
 }

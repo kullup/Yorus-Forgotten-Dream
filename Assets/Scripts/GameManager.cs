@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
 
     public GameOverScreen GameOverScreen;
     public PauseMenu PauseMenu;
+    public MainMenu MainMenu;
 
     void Update()
     {
@@ -56,5 +57,12 @@ public class GameManager : MonoBehaviour
             GameOverScreen.Show();
         }
         Debug.Log("Player Died");
+    }
+
+    public void ShowMainMenu()
+    {
+        GameOverScreen.Hide();
+        PauseMenu.Hide();
+        MainMenu.Show();
     }
 }

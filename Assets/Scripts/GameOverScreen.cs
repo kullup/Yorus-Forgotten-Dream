@@ -13,6 +13,11 @@ public class GameOverScreen : MonoBehaviour
         gameObject.SetActive(true);
     }
 
+	public void Hide()
+	{
+		gameObject.SetActive(false);
+	}
+
 	void Start()
 	{
 		Button btn = restartButton.GetComponent<Button>();
