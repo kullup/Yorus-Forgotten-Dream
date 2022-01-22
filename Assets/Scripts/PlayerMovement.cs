@@ -6,9 +6,7 @@ public class PlayerMovement : MonoBehaviour
 {
 
     public CharacterController2D controller;
-
     public float runSpeed = 40f;
-
     float horizontalMove = 0f;
     bool jump = false;
     bool crouch = false;
@@ -52,6 +50,5 @@ public class PlayerMovement : MonoBehaviour
         // Move our character
         controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump, pushPull);
         jump = false;
-
     }
 }
