@@ -31,14 +31,14 @@ public class MainMenu : MonoBehaviour
 
 	void LevelButton1OnClick()
 	{
-		SceneManager.LoadScene("Lvl1");
+		SceneManager.LoadScene("IntroLvl1");
 		gameObject.SetActive(false);
 		GameManager.GetComponent<GameManager>().ResumeGame();
 	}
 
 	void LevelButton2OnClick()
 	{
-		SceneManager.LoadScene("Lvl2");
+		SceneManager.LoadScene("IntroLvl2");
 		gameObject.SetActive(false);
 		GameManager.GetComponent<GameManager>().ResumeGame();
 	}
