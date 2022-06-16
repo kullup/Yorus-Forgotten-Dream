@@ -11,6 +11,13 @@ public class GameManager : MonoBehaviour
     public GameOverScreen GameOverScreen;
     public PauseMenu PauseMenu;
     public MainMenu MainMenu;
+    public GameObject Player;
+
+    public Vector3 respawnPos;
+
+    void Start() {
+        respawnPos = Player.transform.position;
+    }
 
     void Update()
     {
@@ -45,7 +52,9 @@ public class GameManager : MonoBehaviour
     {
         Time.timeScale = 1f;
         gameHasEnded = false;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        // SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        Player.transform.position = respawnPos;
+        GameOverScreen.Hide();
         Debug.Log("Game Restarted");
     }
 
@@ -69,5 +78,9 @@ public class GameManager : MonoBehaviour
     public void LevelCompleted(string nextLevel)
     {
         SceneManager.LoadScene(nextLevel);
+    }
+
+    public void setRespawnPos(Vector3 pos) {
+        respawnPos = pos;
     }
 }
