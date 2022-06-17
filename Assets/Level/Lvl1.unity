@@ -2566,6 +2566,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &333362669 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8226349109264228812, guid: 9c91fb3cb501c41f89dfe7e95e44df10, type: 3}
+  m_PrefabInstance: {fileID: 1932581070}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &361235883
 GameObject:
   m_ObjectHideFlags: 0
@@ -6923,6 +6928,11 @@ Transform:
   m_Father: {fileID: 1580833290}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &879556774 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5532575285665409413, guid: 90fbc0c16116745b6899d7c5b68d539d, type: 3}
+  m_PrefabInstance: {fileID: 1918133644}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &880625483
 GameObject:
   m_ObjectHideFlags: 0
@@ -8743,6 +8753,14 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!81 &1099720988
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1099720986}
+  m_Enabled: 1
 --- !u!1 &1110372249
 GameObject:
   m_ObjectHideFlags: 0
@@ -11315,11 +11333,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!4 &1426315942 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6546367860537648173, guid: 90fbc0c16116745b6899d7c5b68d539d, type: 3}
-  m_PrefabInstance: {fileID: 1918133644}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1428247741 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8226349109264228809, guid: 9c91fb3cb501c41f89dfe7e95e44df10, type: 3}
@@ -12419,7 +12432,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2122586601}
-  - {fileID: 1426315942}
+  - {fileID: 879556774}
   - {fileID: 1619547797}
   m_Father: {fileID: 571776998}
   m_RootOrder: 3
@@ -18438,6 +18451,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6235998547846341313, guid: b78dfa90daf4748c19db3a4891f9ddf3, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 333362669}
     - target: {fileID: 6235998548514410161, guid: b78dfa90daf4748c19db3a4891f9ddf3, type: 3}
       propertyPath: m_Name
       value: UI + Game Manager

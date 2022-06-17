@@ -20,8 +20,9 @@ public class CameraController : MonoBehaviour
 
 		if (Player) 
 		{
-		
+			transform.position -= new Vector3(0, 4, 0);
 			transform.position = Vector3.Lerp(transform.position, Player.position, m_speed) + new Vector3(0, 0, -12);
+			transform.position += new Vector3(0, 4, 0);
 		}
 
 
