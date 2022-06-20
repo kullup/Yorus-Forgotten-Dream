@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class Checkpoint : MonoBehaviour
 {
@@ -12,6 +13,8 @@ public class Checkpoint : MonoBehaviour
         {
             FindObjectOfType<GameManager>().setRespawnPos(this.transform.position);
             Debug.Log(this.transform.position);
+            Destroy(gameObject);
+            StartCoroutine("showSavingPointText");
         }
     }
 }

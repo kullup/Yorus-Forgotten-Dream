@@ -458,10 +458,10 @@ MonoBehaviour:
   dialogueLines:
   - What is a dream?
   - " A dream is a succession of images, ideas, emotions, and sensations that usually
-    occur involuntarily in the \r\nmind during certain stages of sleep."
+    occur involuntarily in the \rmind during certain stages of sleep."
   - But what is it really?
   - Is it just a lot of images happening randomly at the same time?
-  - "or is it\r something deeper?"
+  - or is it something deeper?
   - Remember Carl Jung.
 --- !u!212 &1143197426
 SpriteRenderer:
