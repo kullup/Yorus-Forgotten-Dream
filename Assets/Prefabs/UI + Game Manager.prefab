@@ -211,7 +211,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 4.252}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 221, y: -32}
+  m_AnchoredPosition: {x: 221, y: -79.00008}
   m_SizeDelta: {x: 204.54, y: 55.76}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &713519217
@@ -332,7 +332,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 2.586}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -220, y: -39}
+  m_AnchoredPosition: {x: -220, y: -86}
   m_SizeDelta: {x: 204.54, y: 55.76}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &740403549
@@ -453,7 +453,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -3.749}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -11, y: -140}
+  m_AnchoredPosition: {x: -11, y: -187.00008}
   m_SizeDelta: {x: 204.54, y: 55.76}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &807718265
@@ -735,8 +735,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 31, y: 115}
-  m_SizeDelta: {x: 689.12, y: 137.26}
+  m_AnchoredPosition: {x: 37, y: 96.75496}
+  m_SizeDelta: {x: 686.82, y: 295.75}
   m_Pivot: {x: 0.5377601, y: 0.5}
 --- !u!222 &2086530948
 CanvasRenderer:
@@ -779,7 +779,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Forest Of Dreams
+  m_Text: Yorus Forgotten Dream
 --- !u!1 &6235998547108514632
 GameObject:
   m_ObjectHideFlags: 0
