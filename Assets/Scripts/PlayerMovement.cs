@@ -11,11 +11,23 @@ public class PlayerMovement : MonoBehaviour
     bool jump = false;
     bool crouch = false;
     bool pushPull = false;
+
+    public AudioClip CheckpointClip;
+    AudioSource Source;
+
     
     // Start is called before the first frame update
     void Start()
     {
-        
+      Source = GetComponent<AudioSource>();  
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.gameObject.tag == "Checkpoint")
+        {
+            Source.PlayOneShot(CheckpointClip);
+        }
     }
 
     // Update is called once per frame
