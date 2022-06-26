@@ -2583,7 +2583,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.7
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -4357,6 +4357,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1367817145433237888, guid: 364ea28bba4664bd18b2b1c92602fee3, type: 3}
       propertyPath: m_Name
+      value: Checkpoint
+      objectReference: {fileID: 0}
+    - target: {fileID: 1367817145433237888, guid: 364ea28bba4664bd18b2b1c92602fee3, type: 3}
+      propertyPath: m_TagString
       value: Checkpoint
       objectReference: {fileID: 0}
     - target: {fileID: 1367817145433237889, guid: 364ea28bba4664bd18b2b1c92602fee3, type: 3}

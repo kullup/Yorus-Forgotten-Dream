@@ -162,6 +162,13 @@ MonoBehaviour:
   - All is black and white.
   - The trees looks like they are dead.
   - but i am not.
+  - 'This is the End of our demo, we hope you had fun playing it
+
+
+
+
+    <3'
+  - "Developers:\n\nJimenez, Juan\nSchulte, Jon\nMa\xDFbaum, Carsten\n"
 --- !u!212 &280577012
 SpriteRenderer:
   m_ObjectHideFlags: 0
